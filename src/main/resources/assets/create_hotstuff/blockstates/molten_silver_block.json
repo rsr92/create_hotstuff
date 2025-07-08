@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "create_hotstuff:block/molten_silver_block"
+    }
+  }
+}

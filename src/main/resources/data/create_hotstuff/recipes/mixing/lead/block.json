@@ -1,0 +1,24 @@
+{
+    "type": "create:mixing",
+    "conditions": [
+        {
+            "type": "forge:not",
+            "value": {
+                "type": "forge:tag_empty",
+                "tag": "forge:storage_blocks/lead"
+            }
+        }
+    ],
+    "heatRequirement": "heated",
+    "ingredients": [
+        {
+      		"tag": "forge:storage_blocks/lead"
+        }
+    ],
+    "results": [
+        {
+            "amount": 810,
+            "fluid": "create_hotstuff:molten_lead"
+        }
+    ]
+}

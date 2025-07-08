@@ -1,0 +1,21 @@
+{
+    "type": "create:compacting",
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "alltheores"
+        }
+    ],
+    "ingredients": [
+        {
+            "amount": 10,
+            "fluid": "create_hotstuff:molten_osmium",
+            "nbt": {}
+        }
+    ],
+    "results": [
+        {
+            "item": "alltheores:osmium_nugget"
+        }
+    ]
+}

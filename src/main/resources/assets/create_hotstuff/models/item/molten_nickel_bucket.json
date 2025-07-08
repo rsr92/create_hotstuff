@@ -1,0 +1,6 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "create_hotstuff:item/molten_nickel_bucket"
+	}
+}

@@ -1,0 +1,21 @@
+{
+    "type": "create:compacting",
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "alltheores"
+        }
+    ],
+    "ingredients": [
+        {
+            "amount": 810,
+            "fluid": "create_hotstuff:molten_platinum",
+            "nbt": {}
+        }
+    ],
+    "results": [
+        {
+            "item": "alltheores:platinum_block"
+        }
+    ]
+}

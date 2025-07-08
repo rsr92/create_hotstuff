@@ -1,0 +1,24 @@
+{
+    "type": "create:mixing",
+    "conditions": [
+        {
+            "type": "forge:not",
+            "value": {
+                "type": "forge:tag_empty",
+                "tag": "forge:ingots/nickel"
+            }
+        }
+    ],
+    "heatRequirement": "heated",
+    "ingredients": [
+        {
+            "tag": "forge:ingots/nickel"
+        }
+    ],
+    "results": [
+        {
+            "amount": 90,
+            "fluid": "create_hotstuff:molten_nickel"
+        }
+    ]
+}

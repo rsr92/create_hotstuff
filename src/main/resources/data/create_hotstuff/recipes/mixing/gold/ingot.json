@@ -1,0 +1,24 @@
+{
+    "type": "create:mixing",
+    "conditions": [
+        {
+            "type": "forge:not",
+            "value": {
+                "type": "forge:tag_empty",
+                "tag": "forge:ingots/gold"
+            }
+        }
+    ],
+    "heatRequirement": "heated",
+    "ingredients": [
+        {
+            "tag": "forge:ingots/gold"
+        }
+    ],
+    "results": [
+        {
+            "amount": 90,
+            "fluid": "create_hotstuff:molten_gold"
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "create:compacting",
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "alltheores"
+        }
+    ],
+    "ingredients": [
+        {
+            "amount": 10,
+            "fluid": "create_hotstuff:molten_uranium",
+            "nbt": {}
+        }
+    ],
+    "results": [
+        {
+            "item": "alltheores:uranium_nugget"
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "create:compacting",
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "tfmg"
+        }
+    ],
+    "ingredients": [
+        {
+            "amount": 90,
+            "fluid": "create_hotstuff:molten_aluminum",
+            "nbt": {}
+        }
+    ],
+    "results": [
+        {
+            "item": "tfmg:aluminum_ingot"
+        }
+    ]
+}
